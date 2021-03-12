@@ -1,4 +1,4 @@
-import { uniqueId } from '@/utils';
+import { uniqueId } from '@/utils/g6';
 import eventBus from "@/utils/eventBus";
 
 export default class Editor {

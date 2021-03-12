@@ -1,5 +1,5 @@
 import G6 from "@antv/g6/build/g6";
-import { uniqueId } from '@/utils'
+import { uniqueId } from '@/utils/g6'
 const MIN_ARROW_SIZE = 3
 
 const customEdge = {

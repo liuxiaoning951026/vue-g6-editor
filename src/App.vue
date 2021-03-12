@@ -7,7 +7,8 @@
 </template>
 
 <script>
-import G6Editor from './components/G6Editor'
+// import G6Editor from './components/G6Editor'
+import G6Editor from './components/G6-TEMPLATE/G6Editor'
 export default {
   name: 'app',
   components:{G6Editor}

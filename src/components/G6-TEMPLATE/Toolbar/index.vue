@@ -91,7 +91,7 @@
 <script>
 import eventBus from "@/utils/eventBus";
 import Util from "@antv/g6/src/util";
-import { uniqueId, getBox } from "@/utils";
+import { uniqueId, getBox } from '@/utils/g6';
 export default {
   data() {
     return {
@@ -240,7 +240,7 @@ export default {
       // this.selectedItem.forEach(item => {
       //   console.log(item);
       // });
-  
+
       //this.getPosition(this.selectedItem);
     },
     getPosition(items) {
@@ -298,7 +298,7 @@ export default {
     },
 
     consoleData() {
-      console.log(this.graph.save());
+      // console.log(this.graph.save());
     }
   }
 };

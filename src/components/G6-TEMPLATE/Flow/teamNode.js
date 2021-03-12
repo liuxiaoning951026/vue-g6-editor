@@ -1,6 +1,6 @@
 import G6 from "@antv/g6/build/g6";
-import { uniqueId } from '@/utils'
-import openSvg from '@/assets/icons/open.svg'
+import { uniqueId } from '@/utils/g6'
+// import openSvg from '@/assets/icons/open.svg'
 import closeSvg from '@/assets/icons/close.svg'
 const teamNode = {
   init() {
@@ -27,7 +27,7 @@ const teamNode = {
             radius: 4
           }
         });
-      
+
         group.addShape("text", {
           attrs: {
             id: 'label' + uniqueId(),

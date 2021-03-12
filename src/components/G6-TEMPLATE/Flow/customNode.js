@@ -1,5 +1,5 @@
 import G6 from "@antv/g6/build/g6";
-import { uniqueId } from '@/utils'
+import { uniqueId } from '@/utils/g6'
 import Shape from '@antv/g/src/shapes'
 const customNode = {
   init() {

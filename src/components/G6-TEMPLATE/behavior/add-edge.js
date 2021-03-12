@@ -1,6 +1,6 @@
 
 import eventBus from "@/utils/eventBus";
-import { uniqueId } from '@/utils'
+import { uniqueId } from '@/utils/g6'
 let startPoint = null
 let startItem = null
 let endPoint = {}

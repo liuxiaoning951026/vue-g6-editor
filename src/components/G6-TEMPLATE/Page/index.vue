@@ -7,7 +7,7 @@
 
 <script>
 import G6 from "@antv/g6/build/g6";
-import { initBehavors } from "@/behavior";
+import { initBehavors } from "@/components/G6-TEMPLATE/behavior";
 export default {
   data() {
     return {
@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     init() {
-      const height =  this.height - 42 
+      const height =  this.height - 42
       const width =  this.width - 400
 
       this.graph = new G6.Graph({
